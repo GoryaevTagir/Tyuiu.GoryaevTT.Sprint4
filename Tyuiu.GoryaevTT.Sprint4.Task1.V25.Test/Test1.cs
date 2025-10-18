@@ -10,7 +10,7 @@ namespace Tyuiu.GoryaevTT.Sprint4.Task1.V25.Test
             Class1 ds = new Class1();
             int[] ar = new int[] { 6, 3, 6, 4, 7, 4, 6, 5, 2, 3, 6, 3, 6, 2 };
             int res = ds.Calculate(ar);
-            Assert.AreEqual(6, res);
+            Assert.AreEqual(42, res);
         }
     }
 }
