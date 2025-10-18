@@ -10,7 +10,7 @@ namespace Tyuiu.GoryaevTT.Sprint4.Task1.V25.Lib
             {
                 if (a % 2 == 0)
                 {
-                    sum += a;
+                    sum = a;
                 }
             }
             return sum;
