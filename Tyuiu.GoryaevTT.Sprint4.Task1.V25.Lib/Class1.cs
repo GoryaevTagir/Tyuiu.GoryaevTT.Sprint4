@@ -6,7 +6,7 @@ namespace Tyuiu.GoryaevTT.Sprint4.Task1.V25.Lib
         public int Calculate(int[] array)
         {
             int sum = 0;
-            foreach (int a in array
+            foreach (int a in array)
             {
                 if (a % 2 == 0)
                 {
