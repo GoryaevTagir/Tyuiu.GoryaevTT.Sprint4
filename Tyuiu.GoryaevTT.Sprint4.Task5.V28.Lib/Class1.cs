@@ -11,9 +11,7 @@ namespace Tyuiu.GoryaevTT.Sprint4.Task5.V28.Lib
                 {
                     if (matrix[i, j] < 0)
                     {
-                        string n = Convert.ToString(matrix[i, j]);
-                        Convert.ToInt32(n.Replace(n, "0"));
-
+                        matrix[i, j] = 0;
                     }
                 }
             }
